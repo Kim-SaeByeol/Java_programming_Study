@@ -1,0 +1,22 @@
+package chap_01;
+
+import java.util.Scanner;
+
+public class Pg_83 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("정수를 입력해주세요.");
+        int time, second, minute, hour;
+        time = scanner.nextInt();
+        second = time % 60;
+        minute = (time / 60) % 60;
+        hour = (time / 60) / 60;
+
+        System.out.print(time + "초는 ");
+        System.out.print(hour + "시간, ");
+        System.out.print(minute + "분, ");
+        System.out.println(second + "초 입니다.");
+        scanner.close();
+    }
+}
