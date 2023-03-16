@@ -1,4 +1,4 @@
-package chap_01;
+package chap_02;
 //자바 프로그래밍 기본 구조
 public class Pg_58 {        //{  }는 class Pg_58 의 클래스 영역.
     public static int sum(int n, int m){        //{  }는 sum() 메소드 영역.

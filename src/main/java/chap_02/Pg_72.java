@@ -1,4 +1,4 @@
-package chap_01;
+package chap_02;
 
 public class Pg_72 {
     public static void main(String[] args) {
