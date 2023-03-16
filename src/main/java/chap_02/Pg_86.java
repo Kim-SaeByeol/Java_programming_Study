@@ -28,7 +28,7 @@ public class Pg_86 {
         //Pg_87
         int a = 3, b = 5;
 
-        //조건 연산. ( condition ? opr2 : opr3. )
+        //조건 연산. ( condition ? opr2 : opr3.)
         //만약 condition 의 값이 true 일 경우 opr2 의 값이 되며, false 일 경우 op3 의 값이 된다.
         //opr2 와 opr3 에 들어가는 값은 '식이 될 수도 있고, 값이 될 수도 있다'.
         System.out.println("두 수의 차는 " + ((a>b)?(a-b):(b-a)));       //a>d 는 3>5. 즉 false 이므로 opr3 에 해당하는 b-a 가 값이 된다. 5 - 3 = 2. 두 수의 차는 2가 된다.
