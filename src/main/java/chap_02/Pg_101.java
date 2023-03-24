@@ -10,7 +10,7 @@ public class Pg_101 {
             case 10:            //100
             case 9:             //90~99
                 grade = 'A';
-                break;
+                break;          //break 값을 넣어야 스위치가 작동을 멈추고 스위치 문을 벗어남. 안 쓰면 계속 내려감.
             case 8:             //80~89
                 grade = 'B';
                 break;
@@ -19,7 +19,7 @@ public class Pg_101 {
                 break;
             case 6:             // 60 ~ 69
                 grade = 'D';
-                        break;
+                break;
             default:            // 59 이하
                 grade = 'F';
         }
