@@ -13,8 +13,12 @@ public class Pg_140 {
            for (int term =0; term < score[year].length; term++)
                sum += score[year][term];
        }
-       int n = score.length;
-       int m = score[0].length;
+
+        //score[][]은 double 타입으로 score[3][1] 의 배열을 선언하였다.
+       int n = score.length;        //score.length = 4.
+       int m = score[0].length;     //score[0].length = 2.
         System.out.println("4년 전체 평점 평균은 "+ sum/(n*m));
+        System.out.println(n);
+        System.out.println(m);
     }
 }
