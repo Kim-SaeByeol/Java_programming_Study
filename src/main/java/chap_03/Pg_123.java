@@ -10,6 +10,7 @@ public class Pg_123 {
                 System.out.print('\t');     //tab
             }
             System.out.println();
+
         }
     }
 }
