@@ -13,7 +13,7 @@ public class Pg_126 {
             if(text.equals("exit"))     //text.equals()는 () 안에 문자열이 입력되면 true 값을 리턴. 즉슨, exit 를 입력시 if 가 실행됨.
                 break;      //반복문을 벗어남.
         }
-        System.out.println("종료합니다...");
+        System.out.println("종료합니다..");
         sc.close();
     }
 }
