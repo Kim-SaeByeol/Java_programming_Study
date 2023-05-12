@@ -1,6 +1,6 @@
 package Exercise;
 
-public class Pg_164_10 {
+public class Pg_166_10 {
     public static void main(String[] args) {
         int arr[][] = new int[4][4];
 

@@ -2,7 +2,7 @@ package Exercise;
 
 import java.util.Scanner;
 
-public class Pg_164_6_re {
+public class Pg_165_6_re {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int unit[] = {50000, 10000, 1000, 500, 100, 50, 10, 1};

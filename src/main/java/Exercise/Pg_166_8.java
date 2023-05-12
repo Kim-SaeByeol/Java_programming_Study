@@ -2,7 +2,7 @@ package Exercise;
 
 import java.util.Scanner;
 
-public class Pg_164_8 {
+public class Pg_166_8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("정수 몇개? : ");

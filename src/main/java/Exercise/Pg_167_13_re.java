@@ -1,6 +1,6 @@
 package Exercise;
 //369 게임
-public class Pg_164_13_re {
+public class Pg_167_13_re {
     public static void main(String[] args) {
         for (int i = 1; i < 100; i++) {
             int a = i / 10;

@@ -2,7 +2,7 @@ package Exercise;
 
 import java.util.Scanner;
 
-public class Pg_164_14 {
+public class Pg_168_14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String course[] = {"Java", "C++", "HTML5", "컴퓨터구조", "안드로이드"};

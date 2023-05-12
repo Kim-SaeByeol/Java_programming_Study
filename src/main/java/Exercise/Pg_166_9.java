@@ -2,7 +2,7 @@ package Exercise;
 
 import java.util.Scanner;
 
-public class Pg_164_9 {
+public class Pg_166_9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[][] = new int[4][4];
