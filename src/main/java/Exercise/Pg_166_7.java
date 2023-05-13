@@ -1,8 +1,6 @@
 package Exercise;
 
-import java.util.Random;
-
-public class Pg_164_7 {
+public class Pg_166_7 {
     public static void main(String[] args) {
         int arr[] = new int[10];
         int sum = 0;

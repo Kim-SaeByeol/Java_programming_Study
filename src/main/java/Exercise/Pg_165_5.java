@@ -2,7 +2,7 @@ package Exercise;
 
 import java.util.Scanner;
 
-public class Pg_164_5 {
+public class Pg_165_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("양의 정수 10개를 입력하시오>> ");
