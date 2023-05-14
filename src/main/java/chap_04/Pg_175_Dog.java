@@ -7,6 +7,9 @@ package chap_04;
 // 자손 클래스 내에서 만든 bark() 라는 메소드 처럼 추가로 만들 수도 있다.
 public class Pg_175_Dog extends Pg_175_Animal {
     public void bark() {
-        System.out.println(name + " is barking.");
+        System.out.println(name + " is barking. [자식 클래스]");
+    }
+    public void sleep() {
+        System.out.println(name + " is sleeping on the floor [자식 클래스에서 오버라이딩]");
     }
 }
