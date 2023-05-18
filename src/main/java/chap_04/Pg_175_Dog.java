@@ -9,6 +9,7 @@ public class Pg_175_Dog extends Pg_175_Animal {
     public void bark() {
         System.out.println(name + " is barking. [자식 클래스]");
     }
+    @Override
     public void sleep() {
         System.out.println(name + " is sleeping on the floor [자식 클래스에서 오버라이딩]");
     }
